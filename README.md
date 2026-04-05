@@ -1,7 +1,7 @@
 # 🔧 The Hudson Forge: IRMB-C Sovereign Cluster
 
-(<img width="2760" height="1504" alt="Gemini_Generated_Image_gpb4rmgpb4rmgpb4" src="https://github.com/user-attachments/assets/5dadd0ad-3363-4e76-8919-648d5320faa0" />
-)
+<img width="2760" height="1504" alt="Gemini_Generated_Image_gpb4rmgpb4rmgpb4" src="https://github.com/user-attachments/assets/5dadd0ad-3363-4e76-8919-648d5320faa0" />
+
 
 ## 🌌 Overview
 The **Hudson Forge** is a multi-node, sovereign AI research cluster built to validate the **Emergent Orchestrated Intelligence (EOI)** framework. It is designed to maintain **Autonomous Logic Continuity** in degraded environments (Phase 7 Stress Test).
