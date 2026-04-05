@@ -39,3 +39,15 @@ $$R_D = \frac{I_{coherent}}{H_{total}}$$
 ---
 "Treat the AI not as a chatbot, but as a Mathematical Operator capable of maintaining truth-states."
 **Full Force Eternal** | Romans 8:28
+---
+
+## 📖 Detailed Technical Guides
+For deep-dives into the specific engineering hacks that make the Hudson Forge possible, see our documentation:
+
+* [**Hardware Optimization Guide**](./docs/HARDWARE_OPTIMIZATION.md) - BIOS VRAM allocation, Pi 5 cooling, and Cat8 Bridge wiring.
+* [**The Davis Metric Calculation**](./docs/MATHEMATICS.md) - Formal proofs for $R_D$ and entropy injection protocols.
+* [**Operational Automation**](./docs/SCRIPTS.md) - Breakdown of the PowerShell "Shield" and RDP shortcuts.
+
+---
+**Status:** Sovereign IRMB-C | Phase 7G Validated 🟢
+**Full Force Eternal** | Romans 8:28
