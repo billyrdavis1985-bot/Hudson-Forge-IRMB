@@ -1,6 +1,6 @@
 # 🔧 The Hudson Forge: IRMB-C Sovereign Cluster
 
-![Cluster Schematic](<img width="2760" height="1504" alt="Gemini_Generated_Image_gpb4rmgpb4rmgpb4" src="https://github.com/user-attachments/assets/5dadd0ad-3363-4e76-8919-648d5320faa0" />
+(<img width="2760" height="1504" alt="Gemini_Generated_Image_gpb4rmgpb4rmgpb4" src="https://github.com/user-attachments/assets/5dadd0ad-3363-4e76-8919-648d5320faa0" />
 )
 
 ## 🌌 Overview
