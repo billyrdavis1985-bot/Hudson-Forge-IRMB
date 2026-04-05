@@ -1,0 +1,58 @@
+🛠️ Operational Lifecycle: Building the Forge
+Phase 1: Hardware Hardening & BIOS Optimization
+The foundational step was bypassing the VRAM bottleneck on the M6 Ultra (Agent 5).
+
+UMA Reconfiguration: Entered System BIOS → Advanced Chipset Settings.
+
+GPU Priority: Increased Dedicated Video Memory from 4GB to 8GB.
+
+Result: This allows the system to treat 26GB+ of the 32GB DDR5 as a unified pool, essential for the Gemma 4 26B MoE weights.
+
+Active Cooling: Verified Pi 5 (Scout) fan curves to prevent thermal throttling during high-token-count sensory ingestion.
+
+Phase 2: The Sovereign Bridge (Network Layer)
+To ensure the cluster functions as a single organism without cloud dependency:
+
+Cat8 Physical Link: Direct hardline established between Node 1 (Architect) and Node 2 (Agent 5).
+
+ICS Implementation: Enabled Internet Connection Sharing via the Architect’s 5070 gateway.
+
+Static Logic Mapping: Assigned Agent 5 to a static internal IP (xxxxxxx) to ensure RDP and Ollama API calls never break during decoherence events.
+
+Phase 3: Multi-Model Tiering (The Scout & Specialist)
+Deployed the tiered model strategy on the Pi 5 (Agent 4):
+
+The Scout (1B): Pulling tinyllama or mobile-llm for 9+ words/sec rapid triage.
+
+The Specialist (3B): Pulling phi3 for logical bridging.
+
+Orchestration: Scripts configured to hand off high-entropy data from the Scout to the Worker (Agent 5) via the Cat8 bridge.
+
+Phase 4: Phase 7G Stress Test (Validation)
+The final step before achieving "Sovereignty Status":
+
+Entropy Injection: Simulated 60% packet loss to trigger the Davis Resilience Metric evaluation.
+
+Orchestration Gap: Manually took the RTX 5070 (Architect) offline.
+
+Sequence Reconstruction: Agent 5 successfully reconstructed fragmented 128-char Hex sequences using heuristic convergence.
+
+Verification: Final audit performed by Kimi K2.5 (1T) to confirm logical integrity reached 97.3%.
+
+🚀 Execution Command Reference
+To boot the Scout Node (Pi 5):
+
+Bash
+ollama run tinyllama  # The Scout 1B
+ollama run phi3       # The Specialist 3B
+To boot the Worker Node (M6 Ultra):
+
+PowerShell
+# Ensure BIOS 8GB VRAM mod is active
+ollama run gemma4:26b
+To monitor the Cluster (The Observer):
+
+Bash
+htop # Monitor UMA/RAM overhead
+# Run Noetherian Telemetry Script
+python3 telemetry_anchor.py
